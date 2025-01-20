@@ -2,7 +2,7 @@
 
 # 💵 Deteksi Keaslian Uang Kertas dengan Pengolahan Citra Digital  
 **Disusun Oleh:**  
-- Hofid (2106__)  
+- Hofid (2106 _ _ _)  
 - Melina Amelia (2206152)  
 
 ---
@@ -13,6 +13,8 @@
 ### **1.1 Latar Belakang**  
 Di era globalisasi dan transformasi digital yang semakin pesat, pemalsuan uang kertas menjadi salah satu masalah yang meresahkan masyarakat dan pemerintah. Pemalsuan uang tidak hanya mengancam stabilitas ekonomi, tetapi juga menimbulkan kerugian besar bagi pelaku usaha dan masyarakat umum. Dalam skala global, organisasi kriminal menggunakan teknologi canggih untuk menciptakan replika uang kertas yang sulit dibedakan dengan mata telanjang.  
 Ada banyak mata uang di seluruh dunia tetapi kertasnya berbeda, sama dengan warna dan pola. Ini tidak mudah pekerjaan untuk membedakan berbagai jenis mata uang. Staf yang bekerja untuk perusahaan money changer, perusahaan pembiayaan dll harus mengingat simbol masing-masing mata uang. Ini mungkin menyebabkan beberapa kegagalan atau pengenalan yang salah, sehingga mereka membutuhkan sistem yang akurat, cepat dan andal untuk membantu pekerjaan mereka [1]. 
+
+Salah satu perkembangan teknologi informasi adalah image processing. Image processing atau biasa disebut pengolahan citra digital. Pengolahan citra digital merupakan teknik mengolah citra yang bertujuan memperbaiki kualitas citra agar mudah diinterpretasi oleh manusia atau mesin komputer yang dapat berupa foto maupun gambar bergerak Effendi et al, (2017) . Salah satu ciri untuk menentukan uang asli dengan mendeteksi ada tidaknya watermark pada uang kertas tersrbut. Untuk itu, perlu adanya suatu teknologi yang dapat mengetahui dan mendeteksi watermark pada uang kertas [2].
 
 ---
 
@@ -111,5 +113,6 @@ Kedua pendekatan memberikan kontribusi signifikan dalam **deteksi keaslian uang 
 
 [1] M. Akbar, Awaluddin, A. Sedayu, A. A. Putra, and S. Widyarto, "Original and Counterfeit Money Detection Based on Edge Detection," in *2013 International Conference on Instrumentation, Communication, Information Technology and Biomedical Engineering*, Bandung, Indonesia, Nov. 7–8, 2013. [Online]. Available: E-mail: muh_akbar@yahoo.com, swidyarto@unisel.edu.my.
 
-[2] Nama Penulis, "Judul Artikel," *Nama Jurnal*, vol. xx, no. xx, pp. xx-xx, Bulan Tahun. DOI atau URL (jika ada).
+[2] A. R. Pambudi, Garno, and Purwantoro, "Deteksi Keaslian Uang Kertas Berdasarkan Watermark dengan Pengolahan Citra Digital," *JIP (Jurnal Informatika Polinema)*, vol. 6, no. 4, pp. 69, Agustus 2020, ISSN: 2614-6371, E-ISSN: 2407-070X. [Online]. Available: https://doi.org/example.
+
 
