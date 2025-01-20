@@ -1,11 +1,45 @@
 # PCD_KEL1
-Analisis Jurnal
-# 💵 Analisis Penelitian: Deteksi Keaslian Uang Kertas dengan Pengolahan Citra Digital  
+
+# 💵 Deteksi Keaslian Uang Kertas dengan Pengolahan Citra Digital  
+**Disusun Oleh:**  
+- Hofid (2106__)  
+- Melina Amelia (2206152)  
+
+---
+  
+# **BAB I**  
+## **PENDAHULUAN**
+
+### **1.1 Latar Belakang**  
+Di era globalisasi dan transformasi digital yang semakin pesat, pemalsuan uang kertas menjadi salah satu masalah yang meresahkan masyarakat dan pemerintah. Pemalsuan uang tidak hanya mengancam stabilitas ekonomi, tetapi juga menimbulkan kerugian besar bagi pelaku usaha dan masyarakat umum. Dalam skala global, organisasi kriminal menggunakan teknologi canggih untuk menciptakan replika uang kertas yang sulit dibedakan dengan mata telanjang.  
+Ada banyak mata uang di seluruh dunia tetapi kertasnya berbeda, sama dengan warna dan pola. Ini tidak mudah pekerjaan untuk membedakan berbagai jenis mata uang. Staf yang bekerja untuk perusahaan money changer, perusahaan pembiayaan dll harus mengingat simbol masing-masing mata uang. Ini mungkin menyebabkan beberapa kegagalan atau pengenalan yang salah, sehingga mereka membutuhkan sistem yang akurat, cepat dan andal untuk membantu pekerjaan mereka [1]. 
 
 ---
 
-## 📌 Pendahuluan  
-Penelitian ini berfokus pada **deteksi keaslian uang kertas** menggunakan metode **pengolahan citra digital**, dengan teknik utama **deteksi tepi Canny**. Dua dokumen analisis dibandingkan untuk menggambarkan pendekatan yang berbeda dalam mendeteksi watermark dan uang palsu.  
+### **1.2 Rumusan Masalah**  
+Beberapa masalah yang menjadi fokus penelitian dalam deteksi keaslian uang kertas adalah:  
+1. Bagaimana membedakan fitur uang asli dengan uang palsu secara otomatis menggunakan pengolahan citra digital?  
+2. Bagaimana efektivitas metode **Canny Edge Detection** dalam mendeteksi watermark pada uang kertas?  
+3. Bagaimana mengembangkan sistem yang efisien dan mudah digunakan untuk memeriksa keaslian uang secara real-time?  
+4. Bagaimana meningkatkan akurasi deteksi untuk berbagai denominasi uang kertas dalam berbagai kondisi pencahayaan?  
+
+---
+
+### **1.3 Tujuan Penelitian**  
+Tujuan dari penelitian ini adalah sebagai berikut:  
+1. Mengembangkan sistem deteksi keaslian uang kertas menggunakan metode pengolahan citra digital.  
+2. Mengukur tingkat akurasi metode **Canny Edge Detection** untuk mendeteksi fitur keamanan pada uang kertas.  
+3. Merancang solusi yang dapat mendukung deteksi otomatis dengan biaya rendah dan efisiensi tinggi.  
+4. Menyediakan teknologi yang mampu beradaptasi dengan tantangan masa depan, termasuk perkembangan teknik pemalsuan.  
+
+---
+
+### **1.4 Manfaat Penelitian**  
+Manfaat dari penelitian ini meliputi:  
+1. Memberikan kontribusi pada pengembangan teknologi keamanan finansial.  
+2. Membantu masyarakat umum dan lembaga keuangan dalam memerangi pemalsuan uang.  
+3. Meningkatkan literasi teknologi pada bidang pengolahan citra digital dan aplikasinya dalam kehidupan sehari-hari.  
+4. Menunjukkan potensi pengolahan citra digital sebagai solusi yang adaptif dan inovatif untuk berbagai masalah dunia nyata.  
 
 ---
 ## 🔍 Ringkasan Penelitian  
@@ -71,4 +105,11 @@ Jurnal ini memberikan kontribusi penting dalam bidang deteksi mata uang palsu de
 
 Kedua pendekatan memberikan kontribusi signifikan dalam **deteksi keaslian uang kertas**:  
 1. **File 1** menekankan keunggulan metode deteksi watermark.  
-2. **File 2** menyoroti pentingnya fitur keamanan dalam mendeteksi uang palsu.  
+2. **File 2** menyoroti pentingnya fitur keamanan dalam mendeteksi uang palsu.
+
+### Referensi
+
+[1] M. Akbar, Awaluddin, A. Sedayu, A. A. Putra, and S. Widyarto, "Original and Counterfeit Money Detection Based on Edge Detection," in *2013 International Conference on Instrumentation, Communication, Information Technology and Biomedical Engineering*, Bandung, Indonesia, Nov. 7–8, 2013. [Online]. Available: E-mail: muh_akbar@yahoo.com, swidyarto@unisel.edu.my.
+
+[2] Nama Penulis, "Judul Artikel," *Nama Jurnal*, vol. xx, no. xx, pp. xx-xx, Bulan Tahun. DOI atau URL (jika ada).
+
