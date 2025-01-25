@@ -2,7 +2,7 @@
 
 # 💵 Deteksi Keaslian Uang Kertas dengan Pengolahan Citra Digital  
 **Disusun Oleh:**  
-- Hofid (2106 _ _ _)  
+- Hofid (2106089)  
 - Melina Amelia (2206152)  
 
 ---
