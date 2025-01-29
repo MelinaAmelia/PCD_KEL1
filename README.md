@@ -20,6 +20,10 @@ Dalam penelitian sebelumnya oleh Nikhat Yasmeen, S. Nida, Nishath Fathima, Moham
 
 Lalu pada penelitian yang dilakukan oleh Agung Rilo Pambudi, Garno, dan Purwantoro dari Teknik Informatika, Fakultas Ilmu Komputer, Universitas Singaperbangsa Karawang [2]. Jurnal ini diterbitkan pada tahun 2020 dengan judul "Deteksi Keaslian Uang Kertas Berdasarkan Watermark dengan Pengolahan Citra Digital". Hasil dari penelitian ini menunjukkan tingkat keberhasilan sebesar 85,71% dalam mendeteksi keaslian uang kertas [2].
 
+Pada Jurnal yang disusun oleh Muhammad Akbar, Awaluddin, Agung Sedayu, dan Aditya Andika Putra pada tahun 2013. Judul jurnalnya adalah "Original and Counterfeit Money Detection Based on Edge Detection." Hasil dari penelitian ini menunjukkan bahwa metode deteksi tepi menggunakan operator Canny efektif dalam membedakan uang asli dan palsu dengan membandingkan karakteristik visual dari gambar yang diuji dengan gambar referensi [1]
+
+
+
 
 ---
 
@@ -120,5 +124,6 @@ Kedua pendekatan memberikan kontribusi signifikan dalam **deteksi keaslian uang 
 
 [2] A. R. Pambudi, Garno, and Purwantoro, "Deteksi Keaslian Uang Kertas Berdasarkan Watermark dengan Pengolahan Citra Digital," *JIP (Jurnal Informatika Polinema)*, vol. 6, no. 4, pp. 69, Agustus 2020, ISSN: 2614-6371, E-ISSN: 2407-070X. [Online]. Available: https://doi.org/example.
 
+[3] N. Yasmeen, S. Nida, N. Fathima, M. Aftab, and N. R. Deepak, "A Review on Fake Currency Detection using Feature Extraction," *International Journal of Modern Developments in Engineering and Science*, vol. 1, no. 5, pp. xx-xx, May 2022. ISSN: 2583-3138. [Online]. Available: https://www.ijmdes.com.
 
 
