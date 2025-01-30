@@ -89,7 +89,7 @@ Proses pre-processing dilakukan untuk memperoleh citra yang selanjutnya dapat di
  ### **3.4 Perancangan Sistem** 
  Langkah pertama dalam membuat program deteksi watermark adalah dengan merancang tampilan program menggunakan Google Colab. Setelah perancangan tampilan dibuat, dilakukan callback untuk memenuhi source code. Setelah membuat source code, maka langkah terakhir adalah dengan mencoba program tersebut. Dataset yang digunakan terdiri dari 1324 gambar untuk training dan 330 gambar untuk validasi. Namun, ditemukan bahwa dataset hanya memiliki 1 kelas, yang menyebabkan model tidak dapat melakukan klasifikasi dengan benar.
 
-### **3.1 Hasil Pelatihan Model CNN**
+### **3.5 Hasil Pelatihan Model CNN**
 
 ![WhatsApp Image 2025-01-30 at 22 08 15](https://github.com/user-attachments/assets/f542958e-f0d7-4b23-867e-b8e97fa7a2b7)
 
