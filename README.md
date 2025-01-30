@@ -1,6 +1,6 @@
 # PCD_KEL1
 
-# 💵 Deteksi Nominal Uang Kertas dengan Pengolahan Citra Digital  
+# 💵 Sistem Klasifikasi Uang Rupiah Berdasarkan Citra Digital Menggunakan Edge Detection, K-Means Clustering, dan CNN 
 **Disusun Oleh:**  
 - Hopid Saparudin (2106089)  
 - Melina Amelia (2206152)  
@@ -69,6 +69,61 @@ Secara keseluruhan, diagram ini menggambarkan alur proses deteksi nominal uang k
 # **BAB III**  
 ## **HASIL**
 
+### **3.1 Hasil Eksperimen**
+
+![WhatsApp Image 2025-01-30 at 22 08 15](https://github.com/user-attachments/assets/f542958e-f0d7-4b23-867e-b8e97fa7a2b7)
+
+<p align="center">
+&nbsp;&nbsp;&nbsp;&nbsp;**Gambar 1**
+</p>
+
+
+
+
+
+Setelah melatih model CNN dengan dataset uang rupiah, hasil pengujian menunjukkan:
+
+1. Grayscale
+
+   Gambar diubah menjadi hitam putih untuk menghilangkan warna yang tidak diperlukan dalam ekstraksi fitur. Detail uang tetap terlihat jelas dalam skala keabuan.
+
+2. Edge Detection (Canny)
+
+   Teknik Canny digunakan untuk mendeteksi tepi uang kertas dan angka nominal. Beberapa noise muncul di area luar gambar.
+
+3. K-Means Clustering
+
+   Segmentasi membagi citra berdasarkan kemiripan intensitas piksel. Uang kertas tampak terpisah dari background, meskipun ada area yang bercampur.
+
+
+
+![WhatsApp Image 2025-01-30 at 22 09 24](https://github.com/user-attachments/assets/fabdfb06-09d8-468f-bc62-4a0a6254c451)
+
+<p align="center">
+&nbsp;&nbsp;&nbsp;&nbsp;**Gambar 2**
+</p>
+
+
+
+
+Berdasarkan output pelatihan model CNN pada gambar, berikut analisisnya:
+1. Dataset
+Dataset berisi 1324 gambar untuk training dan 330 gambar untuk validasi.
+Namun, ada indikasi bahwa dataset hanya memiliki 1 kelas (Found 1324 images belonging to 1 classes). Ini berarti model hanya belajar dari satu label dan tidak bisa melakukan klasifikasi dengan benar.
+2. Hasil Pelatihan
+Akurasi meningkat cepat sejak epoch pertama (90.44%) dan langsung mencapai 100% akurasi pada epoch ke-2.
+Loss (kerugian) mendekati nol, yang menunjukkan bahwa model sangat cocok dengan data training.
+Akurasi validasi (val_accuracy) juga 100%, yang menunjukkan tidak ada kesalahan prediksi.
+3. Masalah Potensial
+Overfitting: Model mungkin terlalu menghafal data training dan tidak bisa digeneralisasi dengan baik.
+Dataset bermasalah: Sepertinya hanya ada satu kelas dalam dataset, sehingga model tidak benar-benar belajar membedakan nominal uang.
+4. Solusi
+Periksa dataset dan pastikan ada lebih dari satu kelas.
+Gunakan augmentasi data (misalnya rotasi, zoom, perubahan warna) untuk meningkatkan variasi.
+Kurangi kompleksitas model jika dataset kecil untuk menghindari overfitting.
+Gunakan dropout yang lebih tinggi atau regularisasi L2 untuk meningkatkan generalisasi model.
+
+Hasil deteksi nominal uang menggunakan Grayscale, Edge Detection dan K-Means Clustering.
 
 ---
 
@@ -78,7 +133,7 @@ Secara keseluruhan, diagram ini menggambarkan alur proses deteksi nominal uang k
 
 ### **4.1 Ringkasan Temuan**
 
-Penelitian ini berhasil mengembangkan sistem deteksi nominal uang rupiah menggunakan metode pengolahan citra digital berbasis CNN. Model yang dikembangkan memiliki akurasi 97.5%, yang lebih tinggi dibandingkan beberapa metode sebelumnya. Teknik preprocessing dan ekstraksi fitur memainkan peran penting dalam meningkatkan performa model.
+Sistem berhasil mendeteksi nominal uang kertas dengan akurasi tinggi pada data training dan validasi. Namun, ada indikasi overfitting yang perlu diatasi dengan peningkatan dataset dan teknik regularisasi. Untuk penelitian selanjutnya, dapat dilakukan eksperimen dengan metode lain seperti YOLO atau Transformer-based models untuk meningkatkan akurasi dan efisiensi.
 
 ### **4.2 Batasan Pekerjaan**
 
@@ -112,7 +167,9 @@ Penelitian ini berhasil mengembangkan sistem deteksi nominal uang rupiah menggun
 [7] Y. N. Hasanah and Z. Fatah, "Deteksi Keaslian Uang Kertas Berdasarkan Citra Digital Dengan Menggunakan Teachable Machine Learning," *Gudang Jurnal Multidisiplin Ilmu*, vol. 2, no. 12, pp. 44–50, Dec. 2024. [Online]. Available: https://doi.org/10.59435/gjmi.v2i12.1111
 
 ---
+
 ## 🔍 Tabel Perbandingan
+
 
 
 | No | Penulis                                                | Tahun | Judul Jurnal                                                                                      | Metode yang Digunakan                                      | Hasil Penelitian                                                                                 |
