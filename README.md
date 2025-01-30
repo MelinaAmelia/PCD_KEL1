@@ -11,7 +11,7 @@
 ## **PENDAHULUAN**
 
 ### **1.1 Latar Belakang**  
-Di era globalisasi dan transformasi digital yang semakin pesat, pemalsuan uang kertas menjadi salah satu masalah yang meresahkan masyarakat dan pemerintah. Pemalsuan uang tidak hanya mengancam stabilitas ekonomi, tetapi juga menimbulkan kerugian besar bagi pelaku usaha dan masyarakat umum. Dalam skala global, organisasi kriminal menggunakan teknologi canggih untuk menciptakan replika uang kertas yang sulit dibedakan dengan mata telanjang.  
+Dalam kehidupan sehari-hari, mata uang merupakan alat tukar yang sangat penting dalam transaksi ekonomi. Mata uang rupiah, sebagai mata uang resmi Indonesia, terdiri dari berbagai pecahan dengan ciri khas yang berbeda pada setiap nominalnya. Ciri khas ini, berupa angka dan tulisan pada uang kertas, berfungsi sebagai indikator untuk membedakan satu nominal dengan nominal lainnya. Namun, dalam praktiknya, manusia seringkali menghadapi kesulitan dalam membedakan nominal uang rupiah secara cepat, terutama dalam kondisi tertentu, seperti pencahayaan yang buruk, uang yang terlipat, atau rusak. 
 
 Ada banyak mata uang di seluruh dunia tetapi kertasnya berbeda, sama dengan warna dan pola. Ini tidak mudah pekerjaan untuk membedakan berbagai jenis mata uang. Staf yang bekerja untuk perusahaan money changer, perusahaan pembiayaan dll harus mengingat simbol masing-masing mata uang. Ini mungkin menyebabkan beberapa kegagalan atau pengenalan yang salah, sehingga mereka membutuhkan sistem yang akurat, cepat dan andal untuk membantu pekerjaan mereka [1]. 
 
