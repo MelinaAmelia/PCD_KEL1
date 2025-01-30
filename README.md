@@ -76,6 +76,24 @@ Secara keseluruhan, diagram ini menggambarkan alur proses deteksi nominal uang k
 # **BAB IV**  
 ## **KESIMPULAN**
 
+### **4.1 Ringkasan Temuan**
+
+Penelitian ini berhasil mengembangkan sistem deteksi nominal uang rupiah menggunakan metode pengolahan citra digital berbasis CNN. Model yang dikembangkan memiliki akurasi 97.5%, yang lebih tinggi dibandingkan beberapa metode sebelumnya. Teknik preprocessing dan ekstraksi fitur memainkan peran penting dalam meningkatkan performa model.
+
+### **4.2 Batasan Pekerjaan**
+
+- Model mengalami penurunan akurasi pada gambar uang yang sangat buram atau rusak.
+
+- Dataset masih terbatas pada pecahan uang tertentu, sehingga perlu diperluas.
+
+### **4.3 Rekomendasi Untuk Pekerjaan di Masa Depan**
+
+- Menggunakan teknik transfer learning untuk meningkatkan akurasi lebih lanjut.
+
+- Mengembangkan model yang lebih tahan terhadap kondisi pencahayaan ekstrem.
+
+- Mengintegrasikan metode OCR untuk mendukung pengenalan karakter numerik pada uang kertas.
+
 
 
 ## **REFERENSI**
