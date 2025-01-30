@@ -19,7 +19,7 @@ Salah satu perkembangan teknologi informasi adalah image processing. Image proce
 
 ---
 
-### **1.2 Masalah Penelitian atau Teori Terkait**  
+### **1.2 Penelitian atau Teori Terkait**  
 Dalam penelitian sebelumnya oleh Alecia Maharani Ektya Antara, Syafrina Aulia Sari, Nita Riswanti, Dhestyara Alivia Amin, Vebi Verdila, dan Amin Padmo Azam Masa pada tahun 2023. Judul jurnalnya adalah "Deteksi Nominal Rupiah Uang Kertas Berdasarkan Citra Warna Menggunakan Segmentasi K-Means Clustering dan Klasifikasi Random Forest." Hasil dari penelitian ini menunjukkan bahwa model Random Forest yang dibangun memiliki tingkat akurasi mencapai 95% dalam memprediksi nominal rupiah uang kertas dari input gambar [3]
 
 Pada jurnal sebelumya yang disusun oleh Wanda Hamidah dkk, dari Universitas Negeri Makassar, pada tahun 2022 dengan judul "Deteksi Nominal Uang Kertas Menggunakan OCR (Optical Character Recognition)". Hasil dari penelitian ini menunjukkan bahwa metode yang diusulkan berhasil mendeteksi nominal uang kertas dengan akurasi sebesar 94%, di mana dari 70 dataset yang diuji, 66 citra uang kertas terdeteksi dengan tepat dan 4 citra mengalami kesalahan deteksi [4].
@@ -30,25 +30,39 @@ Pada penelitian yng disusun oleh Balthasar Kehi, Aryandi Saban, dan Yampi R. Kae
 
 Pada penelitian sebelumya disusun oleh Yeni Nur Hasanah dan Zaehol Fatah dari Universitas Ibrahimy. Jurnal ini diterbitkan pada tahun 2024 dengan judul "Deteksi Keaslian Uang Kertas Berdasarkan Citra Digital Dengan Menggunakan Teachable Machine Learning" [1]. Hasil dari penelitian ini menunjukkan bahwa teachable machine dapat digunakan sebagai alat untuk validasi dataset dengan akurasi yang tinggi pada setiap kelas dataset. Model transfer learning terbaik menggunakan konfigurasi epoch 10, batch size 16, dan learning rate 0.0001, dengan akurasi mencapai 99% untuk beberapa kelas uang kertas [7]
 
-Dibandingkan dengan penelitian sebelumnya yang telah mengidentifikasi gap dalam deteksi nominal uang kertas dengan pengolahan citra digital, penelitian baru ini dibuat bertujuan untuk memperhaharui Deteksi Nominal Uang Kertas Menggunakan OCR (Optical Character Recognition) yang sebelumnya telah diteliti oleh Wanda Hamidah dkk.  yang akan menghasilkan deteksi nominal uang yang lebih akurat dalam memberikan metode yang berbeda yang lebih tepat
+Penelitian ini akan mengembangkan model pengolahan citra digital dengan pendekatan eksperimental menggunakan kombinasi CNN (Convolutional Neural Networks) dan teknik pemrosesan citra lainnya untuk meningkatkan akurasi deteksi nominal uang rupiah
 
 ---
 
 ### **1.3 Tujuan Penelitian**  
 Tujuan dari penelitian ini adalah sebagai berikut:  
-1. Memperbarui Metode yang digunakan dari hasil penelitian sebelumya oleh Wanda Hamidah dkk.  
+1. Mengembangkan sistem deteksi nominal uang kertas rupiah menggunakan metode pengolahan citra digital.
+2. Mengimplementasikan model deep learning (CNN) dalam klasifikasi nominal uang.
+3. Mengevaluasi performa sistem berdasarkan metrik akurasi, presisi, dan recall.
+4. Membandingkan hasil eksperimen dengan metode sebelumnya. 
 
 ---
   
 # **BAB II**  
 ## **METODE**
+### **2.1 Langkah-langkah Penelitian**  
 Penelitian ini menggunakan metode eksperimental. Metode eksperimental merupakan metode yang digunakan untuk mengetahui sebab akibat dari suatu kejadian
+1. Akuisisi Data: Mengumpulkan dataset gambar uang rupiah dari berbagai sumber dengan variasi kondisi pencahayaan dan orientasi.
+2. Preprocessing Citra: Konversi gambar ke grayscale, normalisasi, dan augmentasi data.
+3. Ekstraksi Fitur: Penerapan metode deteksi tepi Canny untuk menyoroti karakteristik utama uang kertas.
+4. Segmentasi Citra: Menggunakan K-Means Clustering untuk memisahkan area penting pada gambar.
+5. Klasifikasi: Menerapkan Convolutional Neural Networks (CNN) untuk mengenali nominal uang.
+6. Evaluasi Model: Menggunakan metrik akurasi, precision, recall, serta membandingkan hasil dengan metode lainnya.
 
-![image](https://github.com/user-attachments/assets/bd624cd9-6d42-41be-8518-ce9ce440cbae)
+### **2.2 Visualisasi Model**   
 
-Tahapan yang terdapat dalam Metode Eximental adalah sebagai berikut: 
+Tahapan yang terdapat dalam Metode Experimental adalah sebagai berikut: 
 
-Pemilihan ide atau topik penelitian, Merumuskan masalah penelitian, merumuskan hipotesis, Menentukan variabel, Menentukan tipe dan desain penelitian, Merancang dan melaksanakan penelitian, Menganalisis hasil penelitian, dan membuat kesimpulan. Adapun dalam pelaksanaan penelitian ini mengacu pada rancangan penelitian yang dapat dilihat pada gambar diatas.
+![image](https://github.com/user-attachments/assets/e36a3f12-be3e-4999-a023-86ada9fc8a05)
+
+
+
+Pemilihan ide atau topik penelitian, Merumuskan masalah penelitian, merumuskan hipotesis, Menentukan variabel, Menentukan tipe dan desain penelitian, Merancang dan melaksanakan penelitian, Menganalisis hasil penelitian, dan membuat kesimpulan. Adapun dalam pelaksanaan penelitian ini mengacu pada rancangan penelitian yang dapat dilihat pada gambar diatas [2].
 
 ---
 
@@ -71,7 +85,6 @@ Pemilihan ide atau topik penelitian, Merumuskan masalah penelitian, merumuskan h
 [2] A. R. Pambudi, Garno, and Purwantoro, "Deteksi Keaslian Uang Kertas Berdasarkan Watermark dengan Pengolahan Citra Digital," *JIP (Jurnal Informatika Polinema)*, vol. 6, no. 4, pp. 69, Agustus 2020, ISSN: 2614-6371, E-ISSN: 2407-070X. 
 
 [3] A. M. Ektya Antara, S. A. Sari, N. Riswanti, D. A. Amin, V. Verdila, and A. P. A. Masa, "Deteksi Nominal Rupiah Uang Kertas Berdasarkan Citra Warna Menggunakan Segmentasi K-Means Clustering dan Klasifikasi Random Forest," *Kreatif Teknologi dan Sistem Informasi (KRETISI)*, vol. 1, no. 1, Jun. 2023. [Online]. Available: https://doi.org/10.30872/kretisi.v1i1.776
- 
 
 [4] W. Hamidah, N. A. P. Hasbullah, T. S. B. Irawan, and A. B. Kaswar, "Deteksi Nominal Uang Kertas Menggunakan OCR (Optical Character Recognition)," *Techno Xplore: Jurnal Ilmu Komputer dan Teknologi Informasi*, vol. 7, no. 2, pp. xx-xx, Oct. 2022. ISSN: 2503-054X.
 
