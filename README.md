@@ -28,19 +28,34 @@ Lalu pada jurnal yang disusun oleh Andhika Ryan Pratama, Muhammad Mustajib, dan 
 
 Selanjutnya pada jurnal Abdul Jalil. Jurnal ini diterbitkan pada bulan Maret 2014 dengan judul "Sistem Kontrol Deteksi Nominal Uang Kertas Rupiah Menggunakan Image Processing Raspberry Pi". Hasil dari penelitian ini menunjukkan bahwa sistem berhasil mendeteksi dan menentukan nominal uang kertas rupiah berdasarkan warnanya dengan akurat, asalkan intensitas cahaya tidak berubah-ubah selama proses pengambilan gambar [6].
 
+Pada penelitian sebelumya disusun oleh Deysy Galeana-Pérez dan Eduardo Bayro-Corrochano pada tahun 2018. Judul jurnalnya adalah "Recognition System for Euro and Mexican Banknotes Based on Deep Learning with Real Scene Images." Hasil dari penelitian ini menunjukkan bahwa sistem yang diusulkan dapat mengenali dan mengklasifikasikan uang kertas dengan tingkat akurasi yang tinggi, mencapai tingkat keberhasilan hingga 100% untuk beberapa mata uang seperti Kazakhstani tenges dan 99.990% untuk dolar Amerika [7]
+
+Dibandingkan dengan penelitian sebelumnya yang telah mengidentifikasi gap dalam deteksi nominal uang kertas dengan pengolahan citra digital, penelitian baru ini dibuat bertujuan untuk memperhaharui Deteksi Nominal Uang Kertas Menggunakan OCR (Optical Character Recognition) yang sebelumnya telah diteliti oleh Wanda Hamidah dkk.  yang akan menghasilkan deteksi nominal uang yang lebih akurat dalam memberikan metode yang berbeda yang lebih tepat
+
 ---
 
 ### **1.3 Tujuan Penelitian**  
 Tujuan dari penelitian ini adalah sebagai berikut:  
-1. Mengembangkan sistem deteksi keaslian uang kertas menggunakan metode pengolahan citra digital.  
-2. Mengukur tingkat akurasi metode **Canny Edge Detection** untuk mendeteksi fitur keamanan pada uang kertas.  
-3. Merancang solusi yang dapat mendukung deteksi otomatis dengan biaya rendah dan efisiensi tinggi.  
-4. Menyediakan teknologi yang mampu beradaptasi dengan tantangan masa depan, termasuk perkembangan teknik pemalsuan.  
+1. Memperbarui Metode yang digunakan dari hasil penelitian sebelumya oleh Wanda Hamidah dkk.  
 
 ---
   
 # **BAB II**  
 ## **METODE**
+
+
+---
+
+  
+# **BAB III**  
+## **HASIL**
+
+
+---
+
+  
+# **BAB IV**  
+## **KESIMPULAN**
 
 
 ---
@@ -122,4 +137,7 @@ Kedua pendekatan memberikan kontribusi signifikan dalam **deteksi keaslian uang 
 [5] A. R. Pratama, M. Mustajib, and A. Nugroho, "Deteksi Citra Uang Kertas dengan Fitur RGB Menggunakan K-Nearest Neighbor," *Jurnal Eksplora Informatika*, pp. 163-xx, Mar. 2020.  
 
 [6] A. Jalil, "Sistem kontrol deteksi nominal uang kertas rupiah menggunakan image processing Raspberry Pi," *Jurnal IT*, vol. 14, STMIK Handayani, Mar. 2014.  
+
+[7] D. Galeana-Pérez and E. Bayro-Corrochano, "Recognition system for Euro and Mexican banknotes based on deep learning with real scene images," *Computación y Sistemas*, vol. 22, no. 4, pp. 1065–1076, 2018, doi: 10.13053/CyS-22-4-3079.  
+
 
