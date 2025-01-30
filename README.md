@@ -61,8 +61,7 @@ Tahapan yang terdapat dalam Metode Experimental adalah sebagai berikut:
 ![image](https://github.com/user-attachments/assets/e36a3f12-be3e-4999-a023-86ada9fc8a05)
 
 
-
-Pemilihan ide atau topik penelitian, Merumuskan masalah penelitian, merumuskan hipotesis, Menentukan variabel, Menentukan tipe dan desain penelitian, Merancang dan melaksanakan penelitian, Menganalisis hasil penelitian, dan membuat kesimpulan. Adapun dalam pelaksanaan penelitian ini mengacu pada rancangan penelitian yang dapat dilihat pada gambar diatas [2].
+Secara keseluruhan, diagram ini menggambarkan alur proses deteksi nominal uang kertas mulai dari pengumpulan data, preprocessing, ekstraksi fitur, segmentasi, klasifikasi, hingga evaluasi model. Setiap tahapan memiliki tujuan dan metode yang spesifik untuk mencapai tujuan akhir, yaitu pengenalan nominal uang.
 
 ---
 
@@ -107,83 +106,12 @@ Pemilihan ide atau topik penelitian, Merumuskan masalah penelitian, merumuskan h
 | 5  | Yeni Nur Hasanah, Zaehol Fatah, Universitas Ibrahimy   | 2024  | "Deteksi Keaslian Uang Kertas Berdasarkan Citra Digital Dengan Menggunakan Teachable Machine Learning" | Teachable Machine Learning                                | Akurasi 99% dengan model transfer learning terbaik, menggunakan epoch 10, batch size 16, dan learning rate 0.0001 |
 
 
-### 🗂 File 1: Deteksi Watermark dengan Pengolahan Citra Digital  
-- **Metode Utama**: Deteksi tepi **Canny**, operasi morfologi, dan binarisasi.  
-- **Tahapan Penelitian**:  
-  1. Konversi gambar ke skala abu-abu.  
-  2. Operasi morfologi untuk mempertegas fitur gambar.  
-  3. Deteksi watermark menggunakan tepi Canny.  
-- **Dataset**: 21 gambar uang kertas dengan denominasi 1.000 hingga 100.000.  
-- **Hasil**: Tingkat keberhasilan deteksi sebesar **85,71%**.  
-- **Rekomendasi**:  
-  - Penggunaan gambar langsung dari webcam.  
-  - Pengujian pada skenario lebih kompleks.  
 
----
 
-### 🗂 File 2: Deteksi Mata Uang Palsu India dengan Pemrosesan Citra  
-Berdasarkan keterangan dari jurnal ini, berikut adalah penjelasan mengenai deteksi mata uang palsu India menggunakan teknik pemrosesan citra:  
 
-1. **Tujuan dan Signifikansi**:  
-   - Jurnal ini menyoroti pentingnya deteksi mata uang palsu untuk menjaga stabilitas ekonomi.  
-   - Pemalsuan uang dapat merusak kepercayaan masyarakat terhadap sistem moneter dan menyebabkan kerugian ekonomi yang signifikan.  
 
-2. **Fitur Keamanan**:  
-   - Penelitian ini mengidentifikasi berbagai fitur keamanan pada uang kertas India yang digunakan untuk mendeteksi keaslian, seperti:  
-     - Benang keamanan.  
-     - Watermark.  
-     - Micro-lettering.  
-     - Cetakan intaglio.  
+ 
 
-3. **Teknik Pemrosesan Citra**:  
-   - Sistem yang diusulkan menggunakan teknik pemrosesan citra untuk membedakan antara uang asli dan palsu.  
-   - Dengan mencapai akurasi **100%**, sistem ini menunjukkan potensi besar untuk digunakan oleh masyarakat umum dalam mendeteksi uang palsu.  
 
-4. **Relevansi Historis**:  
-   - Penelitian ini mengakui bahwa pemalsuan uang telah menjadi masalah sejak zaman kuno.  
-   - Ini menunjukkan bahwa tantangan ini terus berlanjut dan memerlukan solusi yang efektif.  
-
-5. **Pengembangan di Masa Depan**:  
-   - Penelitian di masa depan akan berfokus pada peningkatan kecepatan dan akurasi deteksi dengan menggunakan algoritma pemrosesan citra yang lebih canggih.  
-   - Ini menunjukkan komitmen untuk terus memperbaiki sistem deteksi seiring dengan perkembangan teknologi.  
-
-**Kesimpulan**:  
-Jurnal ini memberikan kontribusi penting dalam bidang deteksi mata uang palsu dengan menawarkan solusi yang akurat dan dapat diakses oleh masyarakat luas. Namun, untuk implementasi yang lebih luas, penelitian lebih lanjut diperlukan untuk memastikan sistem ini dapat berfungsi secara efektif dalam berbagai kondisi dan dengan berbagai jenis uang kertas.  
-
----
-
-## 📊 Analisis Komparatif  
-
-| **Aspek**                 | **File 1**                                                    | **File 2**                                                       |  
-|---------------------------|--------------------------------------------------------------|-------------------------------------------------------------------|  
-| **Fokus Penelitian**      | Deteksi watermark pada uang kertas.                          | Deteksi mata uang palsu India berdasarkan fitur keamanan.         |  
-| **Metode Utama**          | Deteksi tepi (Canny) + operasi morfologi.                    | Deteksi fitur keamanan + algoritma pemrosesan citra.             |  
-| **Keberhasilan**          | 85,71% berhasil mendeteksi watermark.                        | Akurasi mencapai 100%.                                           |  
-| **Dataset**               | 21 gambar uang dari denominasi 1.000 hingga 100.000.         | Uang kertas India dengan berbagai fitur keamanan.                |  
-| **Rekomendasi Masa Depan**| Penggunaan gambar dari webcam dan pengujian lebih beragam.   | Peningkatan algoritma untuk akurasi dan kecepatan lebih tinggi.  |  
-
----
-
-## 📈 Kesimpulan  
-
-Kedua pendekatan memberikan kontribusi signifikan dalam **deteksi keaslian uang kertas**:  
-1. **File 1** menekankan keunggulan metode deteksi watermark.  
-2. **File 2** menyoroti pentingnya fitur keamanan dalam mendeteksi uang palsu.
-
-### Referensi
-
-[1] M. Akbar, Awaluddin, A. Sedayu, A. A. Putra, and S. Widyarto, "Original and Counterfeit Money Detection Based on Edge Detection," in *2013 International Conference on Instrumentation, Communication, Information Technology and Biomedical Engineering*, Bandung, Indonesia, Nov. 7–8, 2013. [Online]. Available: E-mail: muh_akbar@yahoo.com, swidyarto@unisel.edu.my.
-
-[2] A. R. Pambudi, Garno, and Purwantoro, "Deteksi Keaslian Uang Kertas Berdasarkan Watermark dengan Pengolahan Citra Digital," *JIP (Jurnal Informatika Polinema)*, vol. 6, no. 4, pp. 69, Agustus 2020, ISSN: 2614-6371, E-ISSN: 2407-070X. 
-
-[3] N. Yasmeen, S. Nida, N. Fathima, M. Aftab, and N. R. Deepak, "A Review on Fake Currency Detection using Feature Extraction," *International Journal of Modern Developments in Engineering and Science*, vol. 1, no. 5, pp. xx-xx, May 2022. ISSN: 2583-3138. 
-
-[4] W. Hamidah, N. A. P. Hasbullah, T. S. B. Irawan, and A. B. Kaswar, "Deteksi Nominal Uang Kertas Menggunakan OCR (Optical Character Recognition)," *Techno Xplore: Jurnal Ilmu Komputer dan Teknologi Informasi*, vol. 7, no. 2, pp. xx-xx, Oct. 2022. ISSN: 2503-054X.
-
-[5] A. R. Pratama, M. Mustajib, and A. Nugroho, "Deteksi Citra Uang Kertas dengan Fitur RGB Menggunakan K-Nearest Neighbor," *Jurnal Eksplora Informatika*, pp. 163-xx, Mar. 2020.  
-
-[6] A. Jalil, "Sistem kontrol deteksi nominal uang kertas rupiah menggunakan image processing Raspberry Pi," *Jurnal IT*, vol. 14, STMIK Handayani, Mar. 2014.  
-
-[7] D. Galeana-Pérez and E. Bayro-Corrochano, "Recognition system for Euro and Mexican banknotes based on deep learning with real scene images," *Computación y Sistemas*, vol. 22, no. 4, pp. 1065–1076, 2018, doi: 10.13053/CyS-22-4-3079.  
 
 
