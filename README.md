@@ -24,11 +24,11 @@ Dalam penelitian sebelumnya oleh Nikhat Yasmeen, S. Nida, Nishath Fathima, Moham
 
 Pada jurnal sebelumya yang disusun oleh Wanda Hamidah dkk, dari Universitas Negeri Makassar, pada tahun 2022 dengan judul "Deteksi Nominal Uang Kertas Menggunakan OCR (Optical Character Recognition)". Hasil dari penelitian ini menunjukkan bahwa metode yang diusulkan berhasil mendeteksi nominal uang kertas dengan akurasi sebesar 94%, di mana dari 70 dataset yang diuji, 66 citra uang kertas terdeteksi dengan tepat dan 4 citra mengalami kesalahan deteksi [4].
 
-Lalu pada jurnal yang disusun oleh Andhika Ryan Pratama, Muhammad Mustajib, dan Aryo Nugroho. Jurnal ini diajukan pada 11 Januari 2020, direvisi pada 18 Maret 2020, dan diterima pada 31 Maret 2020. Judul jurnalnya adalah "Deteksi Citra Uang Kertas dengan Fitur RGB Menggunakan K-Nearest Neighbor". Hasil dari penelitian ini menunjukkan bahwa dari 16 data uji, 15 objek uang kertas berhasil dideteksi dengan benar, menghasilkan akurasi sebesar 93,7% dengan nilai K=5 [5]
+Lalu pada jurnal yang disusun oleh Andhika Ryan Pratama, Muhammad Mustajib, dan Aryo Nugroho. Jurnal ini diajukan pada 11 Januari 2020, direvisi pada 18 Maret 2020, dan diterima pada 31 Maret 2020. Judul jurnalnya adalah "Deteksi Citra Uang Kertas dengan Fitur RGB Menggunakan K-Nearest Neighbor". Hasil dari penelitian ini menunjukkan bahwa dari 16 data uji, 15 objek uang kertas berhasil dideteksi dengan benar, menghasilkan akurasi sebesar 93,7% dengan nilai K=5 [5].
 
 Selanjutnya pada jurnal Abdul Jalil. Jurnal ini diterbitkan pada bulan Maret 2014 dengan judul "Sistem Kontrol Deteksi Nominal Uang Kertas Rupiah Menggunakan Image Processing Raspberry Pi". Hasil dari penelitian ini menunjukkan bahwa sistem berhasil mendeteksi dan menentukan nominal uang kertas rupiah berdasarkan warnanya dengan akurat, asalkan intensitas cahaya tidak berubah-ubah selama proses pengambilan gambar [6].
 
-Pada penelitian sebelumya disusun oleh Deysy Galeana-Pérez dan Eduardo Bayro-Corrochano pada tahun 2018. Judul jurnalnya adalah "Recognition System for Euro and Mexican Banknotes Based on Deep Learning with Real Scene Images." Hasil dari penelitian ini menunjukkan bahwa sistem yang diusulkan dapat mengenali dan mengklasifikasikan uang kertas dengan tingkat akurasi yang tinggi, mencapai tingkat keberhasilan hingga 100% untuk beberapa mata uang seperti Kazakhstani tenges dan 99.990% untuk dolar Amerika [7]
+Pada penelitian sebelumya disusun oleh Deysy Galeana-Pérez dan Eduardo Bayro-Corrochano pada tahun 2018. Judul jurnalnya adalah "Recognition System for Euro and Mexican Banknotes Based on Deep Learning with Real Scene Images." Hasil dari penelitian ini menunjukkan bahwa sistem yang diusulkan dapat mengenali dan mengklasifikasikan uang kertas dengan tingkat akurasi yang tinggi, mencapai tingkat keberhasilan hingga 100% untuk beberapa mata uang seperti Kazakhstani tenges dan 99.990% untuk dolar Amerika [7].
 
 Dibandingkan dengan penelitian sebelumnya yang telah mengidentifikasi gap dalam deteksi nominal uang kertas dengan pengolahan citra digital, penelitian baru ini dibuat bertujuan untuk memperhaharui Deteksi Nominal Uang Kertas Menggunakan OCR (Optical Character Recognition) yang sebelumnya telah diteliti oleh Wanda Hamidah dkk.  yang akan menghasilkan deteksi nominal uang yang lebih akurat dalam memberikan metode yang berbeda yang lebih tepat
 
@@ -48,7 +48,7 @@ Penelitian ini menggunakan metode eksperimental. Metode eksperimental merupakan 
 
 Tahapan yang terdapat dalam Metode Eximental adalah sebagai berikut: 
 
-Pemilihan ide atau topik penelitian, Merumuskan masalah penelitian, merumuskan hipotesis, Menentukan variabel, Menentukan tipe dan desain penelitian, Merancang dan melaksanakan penelitian, Menganalisis hasil penelitian, dan membuat kesimpulan. Adapun dalam pelaksanaan penelitian ini mengacu pada rancangan penelitian yang dapat dilihat pada gambar diatas.
+Pemilihan ide atau topik penelitian, Merumuskan masalah penelitian, merumuskan hipotesis, Menentukan variabel, Menentukan tipe dan desain penelitian, Merancang dan melaksanakan penelitian, Menganalisis hasil penelitian, dan membuat kesimpulan. Adapun dalam pelaksanaan penelitian ini mengacu pada rancangan penelitian yang dapat dilihat pada gambar diatas [2].
 
 ---
 
