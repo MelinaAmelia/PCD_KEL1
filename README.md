@@ -19,16 +19,16 @@ Salah satu perkembangan teknologi informasi adalah image processing. Image proce
 
 ---
 
-### **1.2 Masalah Penelitian**  
-Dalam penelitian sebelumnya oleh Nikhat Yasmeen, S. Nida, Nishath Fathima, Mohammad Aftab, dan N. R. Deepak, pada tahun 2022 dalam jurnalnya yang berjudul "A Review on Fake Currency Detection Using Feature Extraction" hasil dari penelitian ini yaitu menunjukkan bahwa sistem yang diusulkan untuk deteksi mata uang palsu menggunakan teknik pemrosesan citra mencapai akurasi 100% dalam membedakan antara uang asli dan palsu. Sistem ini memanfaatkan fitur keamanan fisik pada uang kertas India, seperti benang keamanan, watermark, dan cetakan intaglio, untuk melakukan deteksi [3]
+### **1.2 Masalah Penelitian atau Teori Terkait**  
+Dalam penelitian sebelumnya oleh Alecia Maharani Ektya Antara, Syafrina Aulia Sari, Nita Riswanti, Dhestyara Alivia Amin, Vebi Verdila, dan Amin Padmo Azam Masa pada tahun 2023. Judul jurnalnya adalah "Deteksi Nominal Rupiah Uang Kertas Berdasarkan Citra Warna Menggunakan Segmentasi K-Means Clustering dan Klasifikasi Random Forest." Hasil dari penelitian ini menunjukkan bahwa model Random Forest yang dibangun memiliki tingkat akurasi mencapai 95% dalam memprediksi nominal rupiah uang kertas dari input gambar [3]
 
 Pada jurnal sebelumya yang disusun oleh Wanda Hamidah dkk, dari Universitas Negeri Makassar, pada tahun 2022 dengan judul "Deteksi Nominal Uang Kertas Menggunakan OCR (Optical Character Recognition)". Hasil dari penelitian ini menunjukkan bahwa metode yang diusulkan berhasil mendeteksi nominal uang kertas dengan akurasi sebesar 94%, di mana dari 70 dataset yang diuji, 66 citra uang kertas terdeteksi dengan tepat dan 4 citra mengalami kesalahan deteksi [4].
 
-Lalu pada jurnal yang disusun oleh Andhika Ryan Pratama, Muhammad Mustajib, dan Aryo Nugroho. Jurnal ini diajukan pada 11 Januari 2020, direvisi pada 18 Maret 2020, dan diterima pada 31 Maret 2020. Judul jurnalnya adalah "Deteksi Citra Uang Kertas dengan Fitur RGB Menggunakan K-Nearest Neighbor". Hasil dari penelitian ini menunjukkan bahwa dari 16 data uji, 15 objek uang kertas berhasil dideteksi dengan benar, menghasilkan akurasi sebesar 93,7% dengan nilai K=5 [5].
+Lalu pada jurnal yang disusun oleh Andhika Ryan Pratama, Muhammad Mustajib, dan Aryo Nugroho. Jurnal ini diajukan pada 11 Januari 2020, direvisi pada 18 Maret 2020, dan diterima pada 31 Maret 2020. Judul jurnalnya adalah "Deteksi Citra Uang Kertas dengan Fitur RGB Menggunakan K-Nearest Neighbor". Hasil dari penelitian ini menunjukkan bahwa dari 16 data uji, 15 objek uang kertas berhasil dideteksi dengan benar, menghasilkan akurasi sebesar 93,7% dengan nilai K=5 [5]
 
-Selanjutnya pada jurnal Abdul Jalil. Jurnal ini diterbitkan pada bulan Maret 2014 dengan judul "Sistem Kontrol Deteksi Nominal Uang Kertas Rupiah Menggunakan Image Processing Raspberry Pi". Hasil dari penelitian ini menunjukkan bahwa sistem berhasil mendeteksi dan menentukan nominal uang kertas rupiah berdasarkan warnanya dengan akurat, asalkan intensitas cahaya tidak berubah-ubah selama proses pengambilan gambar [6].
+Pada penelitian yng disusun oleh Balthasar Kehi, Aryandi Saban, dan Yampi R. Kaesmetan pada tahun 2024 dengan judul "Deteksi Keaslian Uang Kertas Berdasarkan Watermark Dengan Metode Support Vector Machine (SVM)" yang diterbitkan dalam *Jurnal Informatika dan Komputer (JIK)*, vol. 15, no. 1, hal. 31–38. Penelitian ini bertujuan untuk mendeteksi keaslian uang kertas berdasarkan watermark menggunakan metode Canny Edge Detection. Dalam penelitian ini, citra uang kertas yang digunakan terdiri dari berbagai nominal, yakni 1.000, 2.000, 5.000, 10.000, 20.000, 50.000, dan 100.000. Proses deteksi dilakukan dengan melalui beberapa tahapan, seperti akuisisi citra, operasi grayscale, operasi morfologi, dan akhirnya, penerapan Canny Edge Detection. Hasil penelitian menunjukkan bahwa metode Canny Edge Detection mampu mendeteksi watermark pada uang kertas dengan tingkat akurasi sebesar 85,71%, yang mengindikasikan tingkat keberhasilan yang baik dalam menentukan keaslian uang tersebut. [6].
 
-Pada penelitian sebelumya disusun oleh Deysy Galeana-Pérez dan Eduardo Bayro-Corrochano pada tahun 2018. Judul jurnalnya adalah "Recognition System for Euro and Mexican Banknotes Based on Deep Learning with Real Scene Images." Hasil dari penelitian ini menunjukkan bahwa sistem yang diusulkan dapat mengenali dan mengklasifikasikan uang kertas dengan tingkat akurasi yang tinggi, mencapai tingkat keberhasilan hingga 100% untuk beberapa mata uang seperti Kazakhstani tenges dan 99.990% untuk dolar Amerika [7].
+Pada penelitian sebelumya disusun oleh Yeni Nur Hasanah dan Zaehol Fatah dari Universitas Ibrahimy. Jurnal ini diterbitkan pada tahun 2024 dengan judul "Deteksi Keaslian Uang Kertas Berdasarkan Citra Digital Dengan Menggunakan Teachable Machine Learning" [1]. Hasil dari penelitian ini menunjukkan bahwa teachable machine dapat digunakan sebagai alat untuk validasi dataset dengan akurasi yang tinggi pada setiap kelas dataset. Model transfer learning terbaik menggunakan konfigurasi epoch 10, batch size 16, dan learning rate 0.0001, dengan akurasi mencapai 99% untuk beberapa kelas uang kertas [7]
 
 Dibandingkan dengan penelitian sebelumnya yang telah mengidentifikasi gap dalam deteksi nominal uang kertas dengan pengolahan citra digital, penelitian baru ini dibuat bertujuan untuk memperhaharui Deteksi Nominal Uang Kertas Menggunakan OCR (Optical Character Recognition) yang sebelumnya telah diteliti oleh Wanda Hamidah dkk.  yang akan menghasilkan deteksi nominal uang yang lebih akurat dalam memberikan metode yang berbeda yang lebih tepat
 
@@ -48,7 +48,7 @@ Penelitian ini menggunakan metode eksperimental. Metode eksperimental merupakan 
 
 Tahapan yang terdapat dalam Metode Eximental adalah sebagai berikut: 
 
-Pemilihan ide atau topik penelitian, Merumuskan masalah penelitian, merumuskan hipotesis, Menentukan variabel, Menentukan tipe dan desain penelitian, Merancang dan melaksanakan penelitian, Menganalisis hasil penelitian, dan membuat kesimpulan. Adapun dalam pelaksanaan penelitian ini mengacu pada rancangan penelitian yang dapat dilihat pada gambar diatas [2].
+Pemilihan ide atau topik penelitian, Merumuskan masalah penelitian, merumuskan hipotesis, Menentukan variabel, Menentukan tipe dan desain penelitian, Merancang dan melaksanakan penelitian, Menganalisis hasil penelitian, dan membuat kesimpulan. Adapun dalam pelaksanaan penelitian ini mengacu pada rancangan penelitian yang dapat dilihat pada gambar diatas.
 
 ---
 
@@ -70,26 +70,28 @@ Pemilihan ide atau topik penelitian, Merumuskan masalah penelitian, merumuskan h
 
 [2] A. R. Pambudi, Garno, and Purwantoro, "Deteksi Keaslian Uang Kertas Berdasarkan Watermark dengan Pengolahan Citra Digital," *JIP (Jurnal Informatika Polinema)*, vol. 6, no. 4, pp. 69, Agustus 2020, ISSN: 2614-6371, E-ISSN: 2407-070X. 
 
-[3] N. Yasmeen, S. Nida, N. Fathima, M. Aftab, and N. R. Deepak, "A Review on Fake Currency Detection using Feature Extraction," *International Journal of Modern Developments in Engineering and Science*, vol. 1, no. 5, pp. xx-xx, May 2022. ISSN: 2583-3138. 
+[3] A. M. Ektya Antara, S. A. Sari, N. Riswanti, D. A. Amin, V. Verdila, and A. P. A. Masa, "Deteksi Nominal Rupiah Uang Kertas Berdasarkan Citra Warna Menggunakan Segmentasi K-Means Clustering dan Klasifikasi Random Forest," *Kreatif Teknologi dan Sistem Informasi (KRETISI)*, vol. 1, no. 1, Jun. 2023. [Online]. Available: https://doi.org/10.30872/kretisi.v1i1.776
+ 
 
 [4] W. Hamidah, N. A. P. Hasbullah, T. S. B. Irawan, and A. B. Kaswar, "Deteksi Nominal Uang Kertas Menggunakan OCR (Optical Character Recognition)," *Techno Xplore: Jurnal Ilmu Komputer dan Teknologi Informasi*, vol. 7, no. 2, pp. xx-xx, Oct. 2022. ISSN: 2503-054X.
 
 [5] A. R. Pratama, M. Mustajib, and A. Nugroho, "Deteksi Citra Uang Kertas dengan Fitur RGB Menggunakan K-Nearest Neighbor," *Jurnal Eksplora Informatika*, pp. 163-xx, Mar. 2020.  
 
-[6] A. Jalil, "Sistem kontrol deteksi nominal uang kertas rupiah menggunakan image processing Raspberry Pi," *Jurnal IT*, vol. 14, STMIK Handayani, Mar. 2014.  
+[6] B. Kehi, A. Saban, and Y. R. Kaesmetan, "Deteksi Keaslian Uang Kertas Berdasarkan Watermark Dengan Metode Support Vector Machine (SVM)," *Jurnal Informatika dan Komputer (JIK)*, vol. 15, no. 1, pp. 31–38, Jun. 2024. ISSN: 2089-4384. [Online]. Available: sardikehi@gmail.com, andysaban675@gmail.com, kaesmetanyampi@gmail.com
 
-[7] D. Galeana-Pérez and E. Bayro-Corrochano, "Recognition system for Euro and Mexican banknotes based on deep learning with real scene images," *Computación y Sistemas*, vol. 22, no. 4, pp. 1065–1076, 2018, doi: 10.13053/CyS-22-4-3079.  
+[7] Y. N. Hasanah and Z. Fatah, "Deteksi Keaslian Uang Kertas Berdasarkan Citra Digital Dengan Menggunakan Teachable Machine Learning," *Gudang Jurnal Multidisiplin Ilmu*, vol. 2, no. 12, pp. 44–50, Dec. 2024. [Online]. Available: https://doi.org/10.59435/gjmi.v2i12.1111
 
 ---
 ## 🔍 Tabel Perbandingan
 
-| No  | Penulis | Judul | Tahun | Metode | Hasil |
-|----|---------|-------|------|--------|-------|
-| [1] | N. Yasmeen *et al.* | A Review on Fake Currency Detection Using Feature Extraction | 2022 | Feature Extraction | Sistem deteksi mata uang palsu menggunakan pemrosesan citra mencapai akurasi 100%. Memanfaatkan fitur keamanan fisik seperti benang keamanan, watermark, dan cetakan intaglio pada uang kertas India. |
-| [2] | W. Hamidah *et al.* | Deteksi Nominal Uang Kertas Menggunakan OCR | 2022 | Optical Character Recognition (OCR) | Metode yang diusulkan berhasil mendeteksi nominal uang dengan akurasi 94% (dari 70 dataset, 66 citra berhasil terdeteksi dengan benar). |
-| [3] | A. R. Pratama *et al.* | Deteksi Citra Uang Kertas dengan Fitur RGB Menggunakan K-Nearest Neighbor | 2020 | K-Nearest Neighbor (KNN) | Dari 16 data uji, 15 objek uang kertas berhasil dideteksi dengan benar, menghasilkan akurasi 93,7% dengan nilai K=5. |
-| [4] | A. Jalil | Sistem Kontrol Deteksi Nominal Uang Kertas Rupiah Menggunakan Image Processing Raspberry Pi | 2014 | Image Processing & Raspberry Pi | Sistem berhasil mendeteksi nominal uang rupiah berdasarkan warna, dengan syarat intensitas cahaya tidak berubah selama pengambilan gambar. |
-| [5] | D. Galeana-Pérez & E. Bayro-Corrochano | Recognition System for Euro and Mexican Banknotes Based on Deep Learning with Real Scene Images | 2018 | Deep Learning & Real Scene Images | Sistem dapat mengenali dan mengklasifikasikan uang kertas dengan akurasi tinggi (100% untuk Kazakhstani tenges, 99.990% untuk dolar Amerika). |
+
+| No | Penulis                                                | Tahun | Judul Jurnal                                                                                      | Metode yang Digunakan                                      | Hasil Penelitian                                                                                 |
+|----|--------------------------------------------------------|-------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| 1  | Alecia Maharani Ektya Antara, Syafrina Aulia Sari, Nita Riswanti, Dhestyara Alivia Amin, Vebi Verdila, Amin Padmo Azam Masa | 2023  | "Deteksi Nominal Rupiah Uang Kertas Berdasarkan Citra Warna Menggunakan Segmentasi K-Means Clustering dan Klasifikasi Random Forest" | Segmentasi K-Means Clustering, Klasifikasi Random Forest   | Model Random Forest mencapai akurasi 95% dalam memprediksi nominal rupiah uang kertas dari input gambar |
+| 2  | Wanda Hamidah dkk, Universitas Negeri Makassar         | 2022  | "Deteksi Nominal Uang Kertas Menggunakan OCR (Optical Character Recognition)"                   | Optical Character Recognition (OCR)                       | Metode berhasil mendeteksi nominal uang kertas dengan akurasi 94%, 66 dari 70 citra terdeteksi dengan tepat |
+| 3  | Andhika Ryan Pratama, Muhammad Mustajib, Aryo Nugroho  | 2020  | "Deteksi Citra Uang Kertas dengan Fitur RGB Menggunakan K-Nearest Neighbor"                      | Fitur RGB, K-Nearest Neighbor                              | 15 dari 16 objek uang kertas berhasil dideteksi dengan akurasi 93,7% menggunakan nilai K=5         |
+| 4  | Balthasar Kehi, Aryandi Saban, Yampi R. Kaesmetan      | 2024  | "Deteksi Keaslian Uang Kertas Berdasarkan Watermark Dengan Metode Support Vector Machine (SVM)"  | Canny Edge Detection, Support Vector Machine (SVM)         | Akurasi 85,71% dalam mendeteksi watermark pada uang kertas untuk menentukan keaslian              |
+| 5  | Yeni Nur Hasanah, Zaehol Fatah, Universitas Ibrahimy   | 2024  | "Deteksi Keaslian Uang Kertas Berdasarkan Citra Digital Dengan Menggunakan Teachable Machine Learning" | Teachable Machine Learning                                | Akurasi 99% dengan model transfer learning terbaik, menggunakan epoch 10, batch size 16, dan learning rate 0.0001 |
 
 
 ### 🗂 File 1: Deteksi Watermark dengan Pengolahan Citra Digital  
