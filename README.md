@@ -69,13 +69,34 @@ Secara keseluruhan, diagram ini menggambarkan alur proses deteksi nominal uang k
 # **BAB III**  
 ## **HASIL**
 
-### **3.1 Hasil Eksperimen**
+### **3.1 Bahan Penelitian**
+Pada tahap ini peneliti akan memberikan rincian bahan-bahan yang akan digunakan dalam penelitian. Penulis membutuhkan uang kertas rupiah asli untuk dijadikan citra digital, dengan nilai nominal uang kertas sebagai berikut: 1.000, 2.000, 5.000, 10.000, 20.000, 50.000, dan 100.000 dalam kondisi uang kertas yang baik (tidak terlipat dan tidak ada coretan).
+
+### **3.2 Akuisisi Citra**
+Pada tahap ini, peneliti melakukan pengambilan citra uang. Uang yang diambil citranya dengan cara menyusunnya pada sebuah tatakan di atas lampu dengan penempatan uang di atas tatakan yang telah disediakan. Data yang digunakan berupa gambar-gambar bagian uang yang terdapat watermark yang telah diambil menggunakan kamera handphone.
+
+### **3.3 Pre-Processing**
+Proses pre-processing dilakukan untuk memperoleh citra yang selanjutnya dapat dimanfaatkan untuk sistem yang akan dibuat. Proses ini meliputi:
+
+- Cropping: Dilakukan secara manual dengan menggunakan software pendukung Photoscape, dengan rasio 1:1 dan ukuran 820 x 980 pixel.
+
+- Compressing Size Citra: Mengurangi ukuran gambar agar efisien untuk diproses.
+
+- Segmentasi Citra: Memisahkan area penting dari latar belakang.
+
+- Menutup Noise: Menghilangkan gangguan visual dalam citra.
+
+ ### **3.4 Perancangan Sistem** 
+ Langkah pertama dalam membuat program deteksi watermark adalah dengan merancang tampilan program menggunakan Google Colab. Setelah perancangan tampilan dibuat, dilakukan callback untuk memenuhi source code. Setelah membuat source code, maka langkah terakhir adalah dengan mencoba program tersebut. Dataset yang digunakan terdiri dari 1324 gambar untuk training dan 330 gambar untuk validasi. Namun, ditemukan bahwa dataset hanya memiliki 1 kelas, yang menyebabkan model tidak dapat melakukan klasifikasi dengan benar.
+
+### **3.1 Hasil Pelatihan Model CNN**
 
 ![WhatsApp Image 2025-01-30 at 22 08 15](https://github.com/user-attachments/assets/f542958e-f0d7-4b23-867e-b8e97fa7a2b7)
 
 <p align="center">
-&nbsp;&nbsp;&nbsp;&nbsp;**Gambar 1**
+<b>Gambar 1</b>
 </p>
+
 
 
 
@@ -100,7 +121,7 @@ Setelah melatih model CNN dengan dataset uang rupiah, hasil pengujian menunjukka
 ![WhatsApp Image 2025-01-30 at 22 09 24](https://github.com/user-attachments/assets/fabdfb06-09d8-468f-bc62-4a0a6254c451)
 
 <p align="center">
-&nbsp;&nbsp;&nbsp;&nbsp;**Gambar 2**
+<b>Gambar 2</b>
 </p>
 
 
@@ -123,7 +144,6 @@ Gunakan augmentasi data (misalnya rotasi, zoom, perubahan warna) untuk meningkat
 Kurangi kompleksitas model jika dataset kecil untuk menghindari overfitting.
 Gunakan dropout yang lebih tinggi atau regularisasi L2 untuk meningkatkan generalisasi model.
 
-Hasil deteksi nominal uang menggunakan Grayscale, Edge Detection dan K-Means Clustering.
 
 ---
 
@@ -133,7 +153,13 @@ Hasil deteksi nominal uang menggunakan Grayscale, Edge Detection dan K-Means Clu
 
 ### **4.1 Ringkasan Temuan**
 
-Sistem berhasil mendeteksi nominal uang kertas dengan akurasi tinggi pada data training dan validasi. Namun, ada indikasi overfitting yang perlu diatasi dengan peningkatan dataset dan teknik regularisasi. Untuk penelitian selanjutnya, dapat dilakukan eksperimen dengan metode lain seperti YOLO atau Transformer-based models untuk meningkatkan akurasi dan efisiensi.
+Penelitian ini berhasil membangun sistem deteksi nominal uang kertas rupiah menggunakan metode CNN. Dari hasil pengujian, diperoleh:
+
+- Model mampu mendeteksi watermark dan tepi uang dengan baik.
+
+- Akurasi pelatihan dan validasi tinggi (100%), tetapi dataset yang kurang bervariasi menyebabkan overfitting.
+
+- Perbaikan dataset diperlukan, seperti menambah variasi kelas dan menerapkan teknik augmentasi data.
 
 ### **4.2 Batasan Pekerjaan**
 
